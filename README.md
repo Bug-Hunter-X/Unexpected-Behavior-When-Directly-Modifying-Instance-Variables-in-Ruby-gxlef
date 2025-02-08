@@ -1,0 +1,3 @@
+# Unexpected Behavior When Directly Modifying Instance Variables in Ruby
+
+This repository demonstrates a potential issue in Ruby when directly modifying instance variables using `instance_variable_set` instead of using accessor methods (getters and setters).  Directly manipulating instance variables can bypass any validation or logic that might be present in the accessor methods, leading to unexpected behavior and making the code harder to maintain and debug.  This example shows how using accessor methods is the preferred approach for better encapsulation and code clarity.
